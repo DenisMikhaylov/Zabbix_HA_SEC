@@ -84,3 +84,7 @@ server {
     }
 }
 ```
+
+```
+systemctl restart zabbix-server zabbix-agent nginx php8.2-fpm
+```
