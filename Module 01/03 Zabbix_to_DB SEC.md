@@ -39,6 +39,7 @@ DBTLSConnect=required
 ```
 /etc/zabbix/web/zabbix.conf.php
 ```
+Добавить строку
 ```
-$DB['ENCRYPTION'] = true;
+$DB['USE_TLS'] = true;
 ```
